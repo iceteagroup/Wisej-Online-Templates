@@ -1,0 +1,494 @@
+﻿namespace ChartJS
+{
+	partial class MainPage
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		#region Windows Form Designer generated code
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX13 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines25 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY13 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines26 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX14 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines27 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY14 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines28 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX15 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines29 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY15 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines30 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX16 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines31 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY16 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines32 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX17 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines33 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY17 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines34 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesX optionScalesAxesX18 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines35 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			Wisej.Web.Ext.ChartJS.OptionScalesAxesY optionScalesAxesY18 = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY();
+			Wisej.Web.Ext.ChartJS.OptionsAxisGridLines optionsAxisGridLines36 = new Wisej.Web.Ext.ChartJS.OptionsAxisGridLines();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
+			this.flowLayoutPanel1 = new Wisej.Web.FlowLayoutPanel();
+			this.chartJS1 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.chartJS2 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.chartJS4 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.chartJS6 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.chartJS5 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.chartJS3 = new Wisej.Web.Ext.ChartJS.ChartJS();
+			this.flowLayoutPanel2 = new Wisej.Web.FlowLayoutPanel();
+			this.button1 = new Wisej.Web.Button();
+			this.panel1 = new Wisej.Web.Panel();
+			this.label1 = new Wisej.Web.Label();
+			this.trackBar = new Wisej.Web.TrackBar();
+			this.flowLayoutPanel1.SuspendLayout();
+			this.flowLayoutPanel2.SuspendLayout();
+			this.panel1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// flowLayoutPanel1
+			// 
+			this.flowLayoutPanel1.Anchor = ((Wisej.Web.AnchorStyles)(((Wisej.Web.AnchorStyles.Top | Wisej.Web.AnchorStyles.Left) 
+            | Wisej.Web.AnchorStyles.Right)));
+			this.flowLayoutPanel1.AutoSize = true;
+			this.flowLayoutPanel1.Controls.Add(this.chartJS1);
+			this.flowLayoutPanel1.Controls.Add(this.chartJS2);
+			this.flowLayoutPanel1.Controls.Add(this.chartJS4);
+			this.flowLayoutPanel1.Controls.Add(this.chartJS6);
+			this.flowLayoutPanel1.Controls.Add(this.chartJS5);
+			this.flowLayoutPanel1.Controls.Add(this.chartJS3);
+			this.flowLayoutPanel1.Location = new System.Drawing.Point(67, 241);
+			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(1559, 640);
+			this.flowLayoutPanel1.TabIndex = 15;
+			this.flowLayoutPanel1.TabStop = true;
+			// 
+			// chartJS1
+			// 
+			this.chartJS1.AppearanceKey = "chartjs";
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS1, 100);
+			this.chartJS1.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS1.Location = new System.Drawing.Point(10, 10);
+			this.chartJS1.Margin = new Wisej.Web.Padding(10);
+			this.chartJS1.MinimumSize = new System.Drawing.Size(300, 300);
+			this.chartJS1.Name = "chartJS1";
+			this.chartJS1.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS1.Options.DataLabel.Font = new System.Drawing.Font("default", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS1.Options.Legend.Display = false;
+			this.chartJS1.Options.Legend.Labels.Font = new System.Drawing.Font("default", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX13.GridLines = optionsAxisGridLines25;
+			optionScalesAxesX13.LabelRotation = 0;
+			optionScalesAxesX13.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX13.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX13.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX13.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS1.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX13};
+			optionScalesAxesY13.GridLines = optionsAxisGridLines26;
+			optionScalesAxesY13.LabelRotation = 0;
+			optionScalesAxesY13.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY13.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY13.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY13.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS1.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY13};
+			this.chartJS1.Options.Title.Font = new System.Drawing.Font("default", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS1.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS1.Size = new System.Drawing.Size(759, 300);
+			this.chartJS1.TabIndex = 3;
+			this.chartJS1.Text = "Line Chart";
+			this.chartJS1.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// chartJS2
+			// 
+			this.chartJS2.AppearanceKey = "chartjs";
+			this.chartJS2.ChartType = Wisej.Web.Ext.ChartJS.ChartType.Bar;
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS2, 100);
+			this.flowLayoutPanel1.SetFlowBreak(this.chartJS2, true);
+			this.chartJS2.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS2.Location = new System.Drawing.Point(789, 10);
+			this.chartJS2.Margin = new Wisej.Web.Padding(10);
+			this.chartJS2.MinimumSize = new System.Drawing.Size(300, 300);
+			this.chartJS2.Name = "chartJS2";
+			this.chartJS2.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS2.Options.DataLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS2.Options.Legend.Labels.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX14.GridLines = optionsAxisGridLines27;
+			optionScalesAxesX14.LabelRotation = 0;
+			optionScalesAxesX14.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX14.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX14.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX14.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS2.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX14};
+			optionScalesAxesY14.GridLines = optionsAxisGridLines28;
+			optionScalesAxesY14.LabelRotation = 0;
+			optionScalesAxesY14.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY14.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY14.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY14.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS2.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY14};
+			this.chartJS2.Options.Title.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS2.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS2.Options.Title.Text = "Bar Chart";
+			this.chartJS2.Size = new System.Drawing.Size(760, 300);
+			this.chartJS2.TabIndex = 4;
+			this.chartJS2.Text = "Bar Chart";
+			this.chartJS2.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// chartJS4
+			// 
+			this.chartJS4.AppearanceKey = "chartjs";
+			this.chartJS4.ChartType = Wisej.Web.Ext.ChartJS.ChartType.Radar;
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS4, 100);
+			this.chartJS4.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS4.Location = new System.Drawing.Point(10, 330);
+			this.chartJS4.Margin = new Wisej.Web.Padding(10);
+			this.chartJS4.MinimumSize = new System.Drawing.Size(200, 200);
+			this.chartJS4.Name = "chartJS4";
+			this.chartJS4.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS4.Options.DataLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS4.Options.Legend.Labels.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX15.Display = false;
+			optionScalesAxesX15.GridLines = optionsAxisGridLines29;
+			optionScalesAxesX15.LabelRotation = 0;
+			optionScalesAxesX15.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX15.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX15.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX15.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS4.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX15};
+			optionScalesAxesY15.Display = false;
+			optionScalesAxesY15.GridLines = optionsAxisGridLines30;
+			optionScalesAxesY15.LabelRotation = 0;
+			optionScalesAxesY15.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY15.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY15.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY15.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS4.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY15};
+			this.chartJS4.Options.Title.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS4.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS4.Size = new System.Drawing.Size(369, 300);
+			this.chartJS4.TabIndex = 6;
+			this.chartJS4.Text = "Radar Chart";
+			this.chartJS4.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// chartJS6
+			// 
+			this.chartJS6.AppearanceKey = "chartjs";
+			this.chartJS6.ChartType = Wisej.Web.Ext.ChartJS.ChartType.PolarArea;
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS6, 100);
+			this.chartJS6.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS6.Location = new System.Drawing.Point(399, 330);
+			this.chartJS6.Margin = new Wisej.Web.Padding(10);
+			this.chartJS6.MinimumSize = new System.Drawing.Size(200, 200);
+			this.chartJS6.Name = "chartJS6";
+			this.chartJS6.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS6.Options.DataLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS6.Options.Legend.Display = false;
+			this.chartJS6.Options.Legend.Labels.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX16.Display = false;
+			optionScalesAxesX16.GridLines = optionsAxisGridLines31;
+			optionScalesAxesX16.LabelRotation = 0;
+			optionScalesAxesX16.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX16.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX16.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX16.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS6.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX16};
+			optionScalesAxesY16.Display = false;
+			optionScalesAxesY16.GridLines = optionsAxisGridLines32;
+			optionScalesAxesY16.LabelRotation = 0;
+			optionScalesAxesY16.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY16.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY16.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY16.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS6.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY16};
+			this.chartJS6.Options.Title.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS6.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS6.Size = new System.Drawing.Size(370, 300);
+			this.chartJS6.TabIndex = 8;
+			this.chartJS6.Text = "Polar Area Chart";
+			this.chartJS6.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// chartJS5
+			// 
+			this.chartJS5.AppearanceKey = "chartjs";
+			this.chartJS5.ChartType = Wisej.Web.Ext.ChartJS.ChartType.Doughnut;
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS5, 100);
+			this.chartJS5.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS5.Location = new System.Drawing.Point(789, 330);
+			this.chartJS5.Margin = new Wisej.Web.Padding(10);
+			this.chartJS5.MinimumSize = new System.Drawing.Size(200, 200);
+			this.chartJS5.Name = "chartJS5";
+			this.chartJS5.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS5.Options.DataLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS5.Options.Legend.Display = false;
+			this.chartJS5.Options.Legend.Labels.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX17.Display = false;
+			optionScalesAxesX17.GridLines = optionsAxisGridLines33;
+			optionScalesAxesX17.LabelRotation = 0;
+			optionScalesAxesX17.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX17.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX17.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX17.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS5.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX17};
+			optionScalesAxesY17.Display = false;
+			optionScalesAxesY17.GridLines = optionsAxisGridLines34;
+			optionScalesAxesY17.LabelRotation = 0;
+			optionScalesAxesY17.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY17.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY17.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY17.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS5.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY17};
+			this.chartJS5.Options.Title.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS5.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS5.Options.Title.Text = "Doughnut Chart";
+			this.chartJS5.Size = new System.Drawing.Size(370, 300);
+			this.chartJS5.TabIndex = 7;
+			this.chartJS5.Text = "Doughnut Chart";
+			this.chartJS5.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// chartJS3
+			// 
+			this.chartJS3.AppearanceKey = "chartjs";
+			this.chartJS3.ChartType = Wisej.Web.Ext.ChartJS.ChartType.Pie;
+			this.flowLayoutPanel1.SetFillWeight(this.chartJS3, 100);
+			this.chartJS3.Labels = new string[] {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"};
+			this.chartJS3.Location = new System.Drawing.Point(1179, 330);
+			this.chartJS3.Margin = new Wisej.Web.Padding(10);
+			this.chartJS3.MinimumSize = new System.Drawing.Size(200, 200);
+			this.chartJS3.Name = "chartJS3";
+			this.chartJS3.Options.DataLabel.Color = System.Drawing.Color.Black;
+			this.chartJS3.Options.DataLabel.Display = true;
+			this.chartJS3.Options.DataLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS3.Options.Legend.Labels.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX18.Display = false;
+			optionScalesAxesX18.GridLines = optionsAxisGridLines35;
+			optionScalesAxesX18.LabelRotation = 0;
+			optionScalesAxesX18.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX18.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesX18.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesX18.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS3.Options.Scales.xAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesX[] {
+        optionScalesAxesX18};
+			optionScalesAxesY18.Display = false;
+			optionScalesAxesY18.GridLines = optionsAxisGridLines36;
+			optionScalesAxesY18.LabelRotation = 0;
+			optionScalesAxesY18.ScaleLabel.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY18.ScaleLabel.FontColor = System.Drawing.Color.FromName("@controlText");
+			optionScalesAxesY18.Ticks.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			optionScalesAxesY18.Ticks.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS3.Options.Scales.yAxes = new Wisej.Web.Ext.ChartJS.OptionScalesAxesY[] {
+        optionScalesAxesY18};
+			this.chartJS3.Options.Title.Font = new System.Drawing.Font("@default", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.chartJS3.Options.Title.FontColor = System.Drawing.Color.FromName("@controlText");
+			this.chartJS3.Size = new System.Drawing.Size(370, 300);
+			this.chartJS3.TabIndex = 5;
+			this.chartJS3.Text = "Pie Chart";
+			this.chartJS3.ChartClick += new Wisej.Web.Ext.ChartJS.ChartClickEventHandler(this.chartJS_ChartClick);
+			// 
+			// flowLayoutPanel2
+			// 
+			this.flowLayoutPanel2.Anchor = ((Wisej.Web.AnchorStyles)(((Wisej.Web.AnchorStyles.Top | Wisej.Web.AnchorStyles.Left) 
+            | Wisej.Web.AnchorStyles.Right)));
+			this.flowLayoutPanel2.Controls.Add(this.button1);
+			this.flowLayoutPanel2.Controls.Add(this.panel1);
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(67, 40);
+			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+			this.flowLayoutPanel2.Padding = new Wisej.Web.Padding(0, 15, 0, 0);
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(1087, 169);
+			this.flowLayoutPanel2.TabIndex = 16;
+			this.flowLayoutPanel2.TabStop = true;
+			this.flowLayoutPanel2.WrapContents = false;
+			// 
+			// button1
+			// 
+			this.button1.Anchor = ((Wisej.Web.AnchorStyles)(((Wisej.Web.AnchorStyles.Top | Wisej.Web.AnchorStyles.Left) 
+            | Wisej.Web.AnchorStyles.Right)));
+			this.button1.AppearanceKey = "button-ok";
+			this.flowLayoutPanel2.SetFillWeight(this.button1, 100);
+			this.button1.Font = new System.Drawing.Font("default", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+			this.button1.Location = new System.Drawing.Point(3, 18);
+			this.button1.Margin = new Wisej.Web.Padding(3, 3, 20, 3);
+			this.button1.MinimumSize = new System.Drawing.Size(150, 0);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(618, 128);
+			this.button1.TabIndex = 1;
+			this.button1.Text = "Randomize";
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
+			// panel1
+			// 
+			this.panel1.Anchor = ((Wisej.Web.AnchorStyles)((Wisej.Web.AnchorStyles.Top | Wisej.Web.AnchorStyles.Right)));
+			this.panel1.Controls.Add(this.label1);
+			this.panel1.Controls.Add(this.trackBar);
+			this.panel1.Location = new System.Drawing.Point(644, 18);
+			this.panel1.MaximumSize = new System.Drawing.Size(440, 128);
+			this.panel1.MinimumSize = new System.Drawing.Size(440, 128);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(440, 128);
+			this.panel1.TabIndex = 13;
+			this.panel1.TabStop = true;
+			// 
+			// label1
+			// 
+			this.label1.AllowHtml = true;
+			this.label1.Location = new System.Drawing.Point(12, 3);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(401, 82);
+			this.label1.TabIndex = 10;
+			this.label1.Text = resources.GetString("label1.Text");
+			// 
+			// trackBar
+			// 
+			this.trackBar.Location = new System.Drawing.Point(26, 86);
+			this.trackBar.Maximum = 5000;
+			this.trackBar.Name = "trackBar";
+			this.trackBar.Size = new System.Drawing.Size(387, 34);
+			this.trackBar.TabIndex = 11;
+			this.trackBar.Text = "300";
+			this.trackBar.TickFrequency = 200;
+			this.trackBar.TickStyle = Wisej.Web.TickStyle.None;
+			this.trackBar.Value = 300;
+			// 
+			// MainPage
+			// 
+			this.AutoScaleMode = Wisej.Web.AutoScaleMode.None;
+			this.AutoScroll = true;
+			this.AutoScrollMargin = new System.Drawing.Size(0, 50);
+			this.Controls.Add(this.flowLayoutPanel2);
+			this.Controls.Add(this.flowLayoutPanel1);
+			this.Font = new System.Drawing.Font("default", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+			this.Margin = new Wisej.Web.Padding(7, 0, 7, 0);
+			this.Name = "MainPage";
+			this.Size = new System.Drawing.Size(1186, 606);
+			this.Load += new System.EventHandler(this.ChartsPage_Load);
+			this.flowLayoutPanel1.ResumeLayout(false);
+			this.flowLayoutPanel2.ResumeLayout(false);
+			this.panel1.ResumeLayout(false);
+			this.panel1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
+		}
+
+		#endregion
+
+		private Wisej.Web.FlowLayoutPanel flowLayoutPanel1;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS1;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS2;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS4;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS6;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS5;
+		private Wisej.Web.Ext.ChartJS.ChartJS chartJS3;
+		private Wisej.Web.FlowLayoutPanel flowLayoutPanel2;
+		private Wisej.Web.Button button1;
+		private Wisej.Web.Panel panel1;
+		private Wisej.Web.Label label1;
+		private Wisej.Web.TrackBar trackBar;
+	}
+}
