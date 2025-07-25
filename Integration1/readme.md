@@ -1,5 +1,5 @@
 <h1 id="integration1-devexpress">Integration1 (DevExpress)</h1>
-<img src="../Support/Images/Integration1A.png" width="350" height="233">
+<img width="1024" height="395" alt="Integration1A" src="https://github.com/user-attachments/assets/441181fe-2531-45c7-9b69-01c82709c11f" />
 <img src="../Support/Images/Integration1B.png" width="350" height="233">
 <img src="../Support/Images/Integration1C.png" width="350" height="233">
 <img src="../Support/Images/Integration1D.png" width="350" height="233">
